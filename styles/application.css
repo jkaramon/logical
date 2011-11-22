@@ -1,0 +1,40 @@
+body#index {
+	background-color: #dddddd;
+	margin:0;
+	padding:0;	
+}
+
+#head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 1000px;
+	height: 40px;	
+	background-color: orange;
+	color: white;
+	border: 1px solid blue;
+}
+
+#navigation {
+	position: absolute;	
+	top: 70px;
+	left: 0;
+	bottom: 0;
+	width: 250px;
+	background-color: silver;
+	border: 1px solid blue;
+}
+
+#content {
+	position: absolute;
+	top: 70px;
+	left: 290px;
+	bottom: 0;
+	right: 0;
+	border: 1px solid blue;
+	
+}
+
+#content-footer {	
+}

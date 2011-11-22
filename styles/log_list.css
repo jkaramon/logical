@@ -1,0 +1,44 @@
+ul.log_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.log_list .header {
+	border: 2px solid #a1a1a1;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: silver;
+	position: relative;	
+	height: 50px;
+}
+
+.log_list .header .left,
+.log_list .header .right {
+	padding: 5px;
+	width: 45%;	
+	position: absolute;
+}
+
+.log_list .header .left {
+	left: 0;
+}	
+.log_list .header .right {
+	right: 20px;
+	text-align: right;
+}
+
+.log_list .subtitle,
+.log_list .footer {
+	padding: 5px;
+	border: 2px solid #a1a1a1;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: white;	
+}
+
+
+
+/*
+	#a1a1a1
+*/
