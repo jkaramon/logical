@@ -23,13 +23,13 @@ ul.log_list {
 .log_list .header .left {
 	left: 0;
 }	
+
 .log_list .header .right {
 	right: 20px;
 	text-align: right;
 }
 
-.log_list .subtitle,
-.log_list .footer {
+.log_list .content {
 	padding: 5px;
 	border: 2px solid #a1a1a1;
 	margin: 5px;
@@ -37,8 +37,6 @@ ul.log_list {
 	background-color: white;	
 }
 
-
-
-/*
-	#a1a1a1
-*/
+.hidden {
+	display: none;
+}
