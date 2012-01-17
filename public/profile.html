@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	
+	<script id="profile_template" type="text/x-handlebars-template">
+		<label for="">First Name: </label>
+		<span class="firstName">{{firstName}}</span>
+		<label for="">Last Name: </label>
+		<span class="lastName">{{lastName}}</span>
+		<label for="">Email: </label>
+		<span class="email">{{email}}</span>
+		<label for="">Phone: </label>
+		<span class="phone">{{phone}}</span>
+		<label for="">Country: </label>
+		<span class="country">{{country}}</span>
+	</script>
+
+	<script type="text/javascript" src="/scripts/jquery.js"></script>
+	<script type="text/javascript" src="/scripts/handlebars.js"></script>
+	<script src="scripts/underscore.js" type="text/javascript" charset="utf-8"></script>
+	<script src="scripts/backbone.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript" src="/scripts/profile.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="styles/application.css" />
+	<link rel="stylesheet" type="text/css" href="styles/log_list.css" />	
+</head>
+
+<body id="profile" onload="">	
+	
+	<div id="head">		
+	</div>
+	<div id="navigation">
+		<div id="nav">			
+		</div>
+	</div>	
+	<div id="content">
+		<div id="content_header">			
+		</div>
+		<div id="content_center">
+			<div class="user"></div>
+		</div>				
+	</div>
+
+</body>
+</html>
+
